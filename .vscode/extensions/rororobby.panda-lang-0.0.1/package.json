@@ -1,0 +1,51 @@
+{
+	"name": "panda-lang",
+	"displayName": "Panda",
+	"description": "A low-level programming language tailored towards machine learning.",
+	"publisher": "RoRoRobby",
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "https://zelda.rororobby.ml/rororobby/panda-vscode.git"
+	},
+	"engines": {
+		"vscode": "^1.50.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "panda",
+				"aliases": [
+					"Panda",
+					"panda"
+				],
+				"extensions": [
+					".pnd",
+					".phead"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "panda",
+				"scopeName": "source.pnd",
+				"path": "./syntaxes/panda.tmLanguage.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "c52301ed-770d-41ad-bdb6-301b3b4ccda6",
+		"publisherId": "9ed98fed-c19a-460e-9756-6edd50e8e174",
+		"publisherDisplayName": "RoRoRobby",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1676083622042,
+		"preRelease": false
+	}
+}
